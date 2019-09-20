@@ -1,0 +1,20 @@
+@media only screen and (max-width: 600px) {
+    .mainName{
+        height: 500px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .mainName{
+        height: 600px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .mainName{
+        height: 700px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .mainName{
+        height: 800px;
+    }
+}
