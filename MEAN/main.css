@@ -1,20 +1,61 @@
 @media only screen and (max-width: 600px) {
-    .mainName{
+    .homeSmallPart{
         height: 500px;
+    }
+    .mainName{
+        background-image: url(images/m2_small.jpg);        
+        background-repeat: no-repeat;
+        width: 100%;
     }
 }
 @media only screen and (min-width: 600px) {
-    .mainName{
+    .homeSmallPart{
         height: 600px;
+    }
+    .mainName{
+        background-image: url(images/m2_600.jpg);        
+        background-repeat: no-repeat;
+        width: 100%;
     }
 }
 @media only screen and (min-width: 768px) {
-    .mainName{
+    .homeSmallPart{
         height: 700px;
+    }
+    .mainName{
+        background-image: url(images/m2_768.jpg);        
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .motivePart{
+        background-image: url(images/m3_768.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
     }
 }
 @media only screen and (min-width: 1200px) {
-    .mainName{
+    .homeSmallPart{
         height: 800px;
     }
+    .mainName{
+        background-image: url(images/m2.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .motivePart{
+        background-image: url(images/m3_large.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .freshPart{
+        background-image: url(images/m4_large.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .namePart{
+        background-image: url(images/m5_large.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
 }
+
