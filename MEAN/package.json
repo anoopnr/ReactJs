@@ -1,0 +1,15 @@
+{
+  "name": "janwe",
+  "version": "1.0.0",
+  "description": "janwe website",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
+}
