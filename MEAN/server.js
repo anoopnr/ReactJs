@@ -6,6 +6,9 @@ try{
     var port = 8000; // you can use any port
     app.listen(port);
     console.log('server on' + port);
+    app.get('/',(req,res)=>{
+        res.sendFile(__dirname+'/Index.html');
+    })
 }
 catch(ex){
     console.log(ex);
