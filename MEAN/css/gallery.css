@@ -23,4 +23,13 @@
       -o-transform: scale(1.2);
       transform: scale(1.2);
   }
+
+  .fancybox-overlay{
+    background-color: rgb(119, 119, 119);
+    opacity: 1;
+    cursor: pointer;
+    height: 1726px;
+    display: block;
+    z-index: 1000;
+  }
   
