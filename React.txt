@@ -9,9 +9,31 @@ npm start
 -----------------------------------------------------------------------------------------------------------------------
 Day 2 25-04-2021
 
+https://www.youtube.com/watch?v=9VIiLJL0H4Y
+
 React folder stucture
 
 Index.html inside public folder
 Dive named root in index.html
 
 index.js in src and how it loads app component inside the root element is the basic
+
+Components
+https://www.youtube.com/watch?v=Y2hgEGPzTZY
+Components describe a part of UI
+They are reusable and can be used inside other components
+
+Component is placed in a Javascript filter
+App component is inside app.js
+We can also have compoennents with .jsx
+
+Code inside a component Javascript file depends up on the type of component.
+Two types of Components are there
+Stateless functional component and stateful class component
+
+Stateless functional components just return some html
+Class components extends the component class from react library,
+They must have a render method which will return some html
+
+functional components
+https://www.youtube.com/watch?v=Cla1WwguArA
