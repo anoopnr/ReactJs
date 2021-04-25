@@ -1,0 +1,10 @@
+Day 1 24-04-2021
+React pre requisites
+Javascript- this keyword,filter,map and reduce
+ES6- let and const,arrow functions,template literals,default parameters,object literals,rest and spread operators and destructing assignment
+
+npx create-react-app hello-world
+cd hello-world
+npm start
+-----------------------------------------------------------------------------------------------------------------------
+Day 2 25-04-2021
