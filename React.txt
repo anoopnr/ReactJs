@@ -37,3 +37,17 @@ They must have a render method which will return some html
 
 functional components
 https://www.youtube.com/watch?v=Cla1WwguArA
+
+Created a functional component named Greet, which returns a Hello Anoop header tag
+Created an arrow function Greet
+Exported the Greet arrow function with 'export default Greet'
+Imported the Greet in app.js
+used the <Greet/> tag inside app.js
+
+
+Class Component
+https://www.youtube.com/watch?v=lnV34uLEzis
+creating a class component
+Main difference between funcional component and class component
+If possible we should only use functional components
+
