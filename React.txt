@@ -8,3 +8,10 @@ cd hello-world
 npm start
 -----------------------------------------------------------------------------------------------------------------------
 Day 2 25-04-2021
+
+React folder stucture
+
+Index.html inside public folder
+Dive named root in index.html
+
+index.js in src and how it loads app component inside the root element is the basic
