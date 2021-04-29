@@ -4,16 +4,18 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import HelloC from './components/HelloC'
+import Message from './components/Message'
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Anoop"><button>Action</button></Greet>
+      {/* <Greet name="Anoop"><button>Action</button></Greet>
       <Greet name="Chinnu"/>
       <Welcome name="Shiny"/>
       <Welcome name="Ayyappan" job="amul"/>
       <Hello/>
-      <HelloC/>
+      <HelloC/> */}
+      <Message/>
     </div>
   );
 }

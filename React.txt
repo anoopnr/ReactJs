@@ -67,3 +67,14 @@ Properties
 How to pass properties to components and make them dynamic
 function components access props using props.attribute_name or props.children
 class components access props using this.props.attribute_name
+
+State
+https://www.youtube.com/watch?v=4ORZ1GmjaMc&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=10
+state is managed within the component
+cane be changed inside component
+useSatate Hooks -functional component
+this.state -class component
+state is difined inside class constructor after super() function call
+using this.state={}
+can be aceessed in jsx using {this.state.property_name}
+state can be updated using this.setState({}) method
