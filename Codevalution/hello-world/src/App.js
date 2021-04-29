@@ -8,8 +8,10 @@ import HelloC from './components/HelloC'
 function App() {
   return (
     <div className="App">
-      <Greet/>
-      <Welcome/>
+      <Greet name="Anoop"><button>Action</button></Greet>
+      <Greet name="Chinnu"/>
+      <Welcome name="Shiny"/>
+      <Welcome name="Ayyappan" job="amul"/>
       <Hello/>
       <HelloC/>
     </div>
