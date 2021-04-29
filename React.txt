@@ -51,3 +51,15 @@ creating a class component
 Main difference between funcional component and class component
 If possible we should only use functional components
 
+
+Hooks
+https://www.youtube.com/watch?v=oecI26cWqzk&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=7
+
+
+jsx
+https://www.youtube.com/watch?v=7fPXI_MnBOY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=8
+javascript XML
+xml like tags
+
+Props 
+https://www.youtube.com/watch?v=m7OWXtbiXX8&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=9
