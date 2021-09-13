@@ -2,6 +2,44 @@ Day 1 24-04-2021
 React pre requisites
 Javascript- this keyword,filter,map and reduce
 ES6- let and const,arrow functions,template literals,default parameters,object literals,rest and spread operators and destructing assignment
+-----------------------------------------------------------------------------------------------------------------------
+https://ui.dev/var-let-const/
+var VS let VS const
+
+var:
+  function scoped
+  undefined when accessing a variable before it's declared
+
+let:
+  block scoped
+  ReferenceError when accessing a variable before it's declared
+
+const:
+  block scoped
+  ReferenceError when accessing a variable before it's declared
+  can't be reassigned
+ -----------------------------------------------------------------------------------------------------------------------
+The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+const result = words.filter(word => word.length > 6);
+console.log(result);// expected output: Array ["exuberant", "destruction", "present"]
+
+The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+const array1 = [1, 4, 9, 16];// pass a function to map
+const map1 = array1.map(x => x * 2);
+console.log(map1);// expected output: Array [2, 8, 18, 32]
+
+The reduce() method executes a user-supplied “reducer” callback function on each element of the array, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value.
+
+const array1 = [1, 2, 3, 4];
+const reducer = (previousValue, currentValue) => previousValue + currentValue;
+console.log(array1.reduce(reducer));// 1 + 2 + 3 + 4
+// expected output: 10
+console.log(array1.reduce(reducer, 5));// 5 + 1 + 2 + 3 + 4
+// expected output: 15
+-----------------------------------------------------------------------------------------------------------------------
 
 npx create-react-app hello-world
 cd hello-world
@@ -14,7 +52,7 @@ https://www.youtube.com/watch?v=9VIiLJL0H4Y
 React folder stucture
 
 Index.html inside public folder
-Dive named root in index.html
+Div named root in index.html
 
 index.js in src and how it loads app component inside the root element is the basic
 
@@ -71,10 +109,17 @@ class components access props using this.props.attribute_name
 State
 https://www.youtube.com/watch?v=4ORZ1GmjaMc&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=10
 state is managed within the component
-cane be changed inside component
+can be changed inside component
 useSatate Hooks -functional component
 this.state -class component
 state is difined inside class constructor after super() function call
 using this.state={}
 can be aceessed in jsx using {this.state.property_name}
 state can be updated using this.setState({}) method
+
+npm run build
+
+npm serve -s build
+
+setState
+https://www.youtube.com/watch?v=uirRaVjRsf4&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=11
